@@ -17,3 +17,4 @@ else:
 sen = 10
 
 if(sen < 10):
+  print("koodak")

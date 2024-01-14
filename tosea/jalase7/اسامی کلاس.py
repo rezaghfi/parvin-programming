@@ -3,9 +3,8 @@ asm = input("enter name: ")
 myClass = ['fatemeh', 'negin', 'bahar', 'hanieh', 'nazanin', 'hadis', 'farahnaz', 'farimah', 'anita', 'nazanin', 'mobina']
 
 i = 0
-flag = False
-while(i < 
-(myClass)):
+flag = False # متغییر بولین
+while(i < len(myClass)):
   if(asm == myClass[i]):
     print("asm in myClass")
     flag = True

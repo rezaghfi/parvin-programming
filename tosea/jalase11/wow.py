@@ -2,15 +2,16 @@ def wow(n):
   pass
 
 def wow2(n):
-  output = "w"
   if(n <= 0 or n>10):
-    return "wrong"
+    return "false"
+  o = "w"
   while(n > 0):
-    output += "o"
+    o += "o"
     n = n - 1
-  output += "w!"
-  return output
+  o += "w!"
+  return o
 print(wow2(11))
+
 
 
 
